@@ -109,7 +109,8 @@ button, li, a {
     position: relative;
     z-index: 2;
     overflow: hidden;
-    display: none; }
+    display: none;
+    cursor: pointer; }
     @media (max-width: 770px) {
       .watch-header__burger {
         display: block; } }
@@ -450,6 +451,8 @@ button, li, a {
       .watch-main__news .news-content__social {
         display: flex;
         gap: 17px; }
+        .watch-main__news .news-content__social img {
+          cursor: pointer; }
     .watch-main__news .news-photos {
       display: flex;
       gap: 10px;

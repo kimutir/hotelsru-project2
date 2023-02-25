@@ -138,6 +138,7 @@ button, li, a {
         z-index:2;
         overflow: hidden;
         display: none;
+        cursor: pointer;
 
         @media (max-width: 770px) {
             display: block;
@@ -601,6 +602,10 @@ button, li, a {
             &__social {
                 display: flex;
                 gap: 17px;
+
+                img {
+                    cursor: pointer;
+                }
             }
         }
 
